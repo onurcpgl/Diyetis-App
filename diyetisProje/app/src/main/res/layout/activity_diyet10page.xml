@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/agreen"
+    tools:context=".diyet10page">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="368dp"
+        android:layout_height="708dp"
+        android:text="@string/_1_345_kalori_n_n_n_sabah_uyan_nca_2_su_barda_l_k_su_kahvalt_n_n_n_1_dilim_tam_tah_ll_ekmek_n_2_dilim_beyaz_peynir_n_n_n_n_ara_n_1_su_barda_ayran_1_elma_n_len_n_n_n_1_tabak_ye_il_mercimek_yeme_i_n_4_5_ka_k_bulgur_pilav_n_1_kase_cac_k_bol_naneli_n_bol_salata_az_zeytinya_l_n_n_n_n_ara_n_1_adet_k_k_muz_1_avu_badem_ak_am_n_n_n_bol_biberli_bol_domatesli_1_yumurtadan_yap_lm_menemen_n_2_dilim_tam_tah_ll_ekmek_n_bol_salata_az_zeytinya_ilaveli_n_ara_n_3_4_adet_tam_ceviz"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

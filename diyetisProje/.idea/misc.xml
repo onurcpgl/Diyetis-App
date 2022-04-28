@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/drawable/ayarlar.xml" value="0.3355" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.3355" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.3355" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3345" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_anasayfa.xml" value="0.33" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_besinkaloritablo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_bke.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diy1_map.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diy2_map.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyet10page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyet1page.xml" value="0.33" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyet2page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyet3page.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyet4page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyet5page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyet6page.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyet7page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyet8page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyet9page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyetal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyetis.xml" value="0.25" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyetis_page1.xml" value="0.33" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyetis_page2.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyetis_page3.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyetis_page4.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_diyetis_page5.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_mesaj_ahmet.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_mesaj_ayse.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_mesaj_hakan.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_mesaj_orkun.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_mesaj_sinem.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_message.xml" value="0.25" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_profilayar.xml" value="0.25" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_sutuketimi.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_user_login.xml" value="0.33" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/activity_user_sign.xml" value="0.25" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/expachilditem.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/expandlistitem.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/layout/layout_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/Onur/diyetisProje/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.176" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

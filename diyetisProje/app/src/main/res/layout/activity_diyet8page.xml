@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/agreen"
+    tools:context=".diyet8page">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="374dp"
+        android:layout_height="700dp"
+        android:text="@string/_1_345_kalori_n_n_n_n_sabah_uyan_nca_2_su_barda_l_k_su_kahvalt_n_n_n_n_1_bardak_ekersiz_a_k_taze_limon_ilaveli_siyah_ay_n_1_adet_yumurta_ve_1_dilim_peynir_ile_omlet_maydanoz_ilaveli_n_2_dilim_tam_tah_ll_ekmek_n_8_10_adet_zeytin_n_bol_domates_salatal_k_n_ara_n_1_adet_portakal_n_len_n_n_n_n_1_tabak_zeytinya_l_kereviz_n_2_3_yemek_ka_bulgur_pilav_n_1_su_barda_yo_urt_n_bol_salata_az_zeytinya_l_n_ara_n_1_dilim_peynir_1_dilim_tam_tah_ll_ekmek_n_ak_am_n_n_n_n_1_porsiyon_zgara_tavuk_veya_hindi_n_bol_salata_az_zeytinya_ilaveli_n_ara_n_1_bardak_yo_urt"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

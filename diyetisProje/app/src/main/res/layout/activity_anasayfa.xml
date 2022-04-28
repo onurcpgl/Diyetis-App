@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/agreen"
+    tools:context=".anasayfa">
+
+    <ImageButton
+        android:id="@+id/menubar_btn7"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:contentDescription="@string/tools"
+        android:src="@drawable/kaloritablo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821"
+        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/menubar_btn6"
+        android:layout_width="142dp"
+        android:layout_height="147dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:contentDescription="@string/tools"
+        android:src="@drawable/mesaj"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/menubar_btn5"
+        android:layout_width="224dp"
+        android:layout_height="102dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:contentDescription="@string/t_string_tools"
+        android:src="@drawable/diyetisyenler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/menubar_btn3"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:contentDescription="@string/tools"
+        android:src="@drawable/diyetal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/menubar_btn4"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/tools"
+        android:src="@drawable/su"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/menubar_btn1"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:contentDescription="@string/tools"
+        android:src="@drawable/kitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/menubar_btn2"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:background="@drawable/profill"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:contentDescription="@string/tools"
+        android:src="@drawable/profill"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/menubar_quit"
+        android:layout_width="96dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:contentDescription="@string/todo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/agreen"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    tools:context=".diyetis">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/Diyetisyenler">
+
+        <LinearLayout
+            android:id="@+id/scrolview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/diyet1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/diy1"
+            android:src="@drawable/diyet1"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/diyet2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/diy2"
+            android:paddingTop="15dp"
+            app:srcCompat="@drawable/diyet3"
+            tools:ignore="DuplicateClickableBoundsCheck,DuplicateClickableBoundsCheck"
+            tools:layout_editor_absoluteY="15dp" />
+
+        <ImageButton
+            android:id="@+id/diyet3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/diy3"
+            android:paddingTop="15dp"
+            app:srcCompat="@drawable/diyet2" />
+
+        <ImageButton
+            android:id="@+id/diyet4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/diy4"
+            android:paddingTop="15dp"
+            app:srcCompat="@drawable/diyet4"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/diyet5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/diy5"
+            android:paddingTop="15dp"
+            app:srcCompat="@drawable/diyet5"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <ImageButton
+                android:id="@+id/diyet6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/diy10"
+                android:paddingTop="15dp"
+                app:srcCompat="@drawable/diyet4"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/diyet7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/diy6"
+                android:paddingTop="15dp"
+                app:srcCompat="@drawable/diyet6"
+                tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/diyet8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/diy7"
+            android:paddingTop="15dp"
+            app:srcCompat="@drawable/diyet9"/>
+        <ImageButton
+            android:id="@+id/diyet9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/diy8"
+            android:paddingTop="15dp"
+            app:srcCompat="@drawable/diyet8"/>
+        <ImageButton
+            android:id="@+id/diyet10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/diy9"
+            android:paddingTop="15dp"
+            app:srcCompat="@drawable/diyet10" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

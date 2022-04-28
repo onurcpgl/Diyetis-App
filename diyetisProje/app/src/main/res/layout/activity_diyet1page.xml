@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/agreen"
+    tools:context=".diyet1page">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="362dp"
+        android:layout_height="605dp"
+        android:text="@string/sabah_kalk_nca_2_bardak_su_n_n_n_n_kahvalt_1_tam_yumurta_2_yumurta_beyaz_ile_yap_lm_mantarl_lorlu_omlet_2_3_dilim_tam_bu_day_ekme_i_50_gr_az_ya_l_beyaz_peynir_5_6_adet_zeytin_n_n_nara_n_1_porsiyon_meyve_15_adet_i_badem_veya_f_nd_k_n_n_n_n_n_len_200_gr_zgara_tavuk_ile_yap_lm_salata_veya_ha_lama_tavuk_1_kase_yo_urt_2_3_dilim_tam_bu_day_ekme_i_n_n_n_n_ara_n_200_ml_s_t_veya_kefir_2_adet_kuru_incir_n_n_n_n_ak_am_150_gr_zgara_ya_s_z_dana_eti_veya_k_fte_izgara_sebze_veya_1_porsiyon_zeytinya_l_sebze_yeme_i_1_porsiyon_kepekli_makarna_veya_bulgur_pilav_n_n_n_n_gece_200_ml_light_s_t"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

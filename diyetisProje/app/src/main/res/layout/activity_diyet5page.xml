@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/agreen"
+    tools:context=".diyet5page">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="372dp"
+        android:layout_height="705dp"
+        android:text="@string/_1_360_kalori_n_n_n_sabah_uyan_nca_2_su_barda_l_k_su_kahvalt_n_n_n_1_su_barda_s_t_n_4_5_yemek_ka_m_sli_ve_yulaf_ezmesi_kar_m_n_4_5_adet_tam_ceviz_n_ara_n_1_adet_kivi_n_len_n_n_n_3_4_adet_k_fte_n_1_dilim_tam_tah_ll_ekmek_n_bol_salata_az_zeytinya_ilaveli_n_ara_n_1_dilim_peynir_1_dilim_tam_tah_ll_ekmek_1_mandalina_n_ak_am_n_n_n_1_adet_orta_boy_bal_k_n_1_adet_ha_lanm_veya_zgara_orta_boy_patates_n_bol_salata_az_zeytinya_ilaveli_n_ara_n_bol_salatal_k_dilerseniz_ok_az_tuz_serpebilirsiniz"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

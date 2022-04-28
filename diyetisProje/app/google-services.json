@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "883726616089",
+    "project_id": "diyetisveritabani",
+    "storage_bucket": "diyetisveritabani.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883726616089:android:a4c3bdd820e0b7254c4c88",
+        "android_client_info": {
+          "package_name": "com.example.diyetisproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883726616089-taqt660o1sif58ohg9vk5qb1jci0evor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diyetisproje",
+            "certificate_hash": "1f2d61a7144544f278cff4b7ee7ab7f765f1d9d1"
+          }
+        },
+        {
+          "client_id": "883726616089-q5n2m2la3adtso8ffdtutvgqs285di9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVWqIZh_EHvLmvlRPulYrJVXAeM-nnK44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883726616089-q5n2m2la3adtso8ffdtutvgqs285di9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

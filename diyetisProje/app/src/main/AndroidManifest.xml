@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diyetisproje">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@android:drawable/ic_notification_overlay"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DiyetisProje">
+        <activity
+            android:name=".diyet10page"
+            android:exported="false" />
+        <activity
+            android:name=".diyet9page"
+            android:exported="false" />
+        <activity
+            android:name=".diyet8page"
+            android:exported="false" />
+        <activity
+            android:name=".diyet7page"
+            android:exported="false" />
+        <activity
+            android:name=".diyet6page"
+            android:exported="false" />
+        <activity
+            android:name=".diyet5page"
+            android:exported="false" />
+        <activity
+            android:name=".diyet4page"
+            android:exported="false" />
+        <activity
+            android:name=".diyet3page"
+            android:exported="false" />
+        <activity
+            android:name=".diyet2page"
+            android:exported="false" />
+        <activity
+            android:name=".diyet1page"
+            android:exported="false" />
+        <activity
+            android:name=".diyetal"
+            android:exported="false" />
+        <activity
+            android:name=".profilayar"
+            android:exported="false" />
+        <activity
+            android:name=".mesaj_sinem"
+            android:exported="false" />
+        <activity
+            android:name=".mesaj_ayse"
+            android:exported="false" />
+        <activity
+            android:name=".mesaj_hakan"
+            android:exported="false" />
+        <activity
+            android:name=".mesaj_ahmet"
+            android:exported="false" />
+        <activity
+            android:name=".mesaj_orkun"
+            android:exported="false" />
+        <activity
+            android:name=".message"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBMy7hzVQFjUYwuAJhzLAjBiDQjWpHBD70" />
+
+        <activity
+            android:name=".diy1_map"
+            android:exported="false"
+            android:label="@string/title_activity_diy1_map" />
+        <activity
+            android:name=".besinkaloritablo"
+            android:exported="false" />
+        <activity
+            android:name=".sutuketimi"
+            android:exported="false" />
+        <activity
+            android:name=".anasayfa"
+            android:exported="false" />
+        <activity
+            android:name=".diyetis_page5"
+            android:exported="false" />
+        <activity
+            android:name=".diyetis_page4"
+            android:exported="false" />
+        <activity
+            android:name=".diyetis_page3"
+            android:exported="false" />
+        <activity
+            android:name=".diyetis_page2"
+            android:exported="false" />
+        <activity
+            android:name=".diyetis_page1"
+            android:exported="false" />
+        <activity
+            android:name=".diyetis"
+            android:exported="false" />
+        <activity
+            android:name=".BKE"
+            android:exported="false" />
+        <activity
+            android:name=".user_sign"
+            android:exported="false" />
+        <activity
+            android:name=".user_login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

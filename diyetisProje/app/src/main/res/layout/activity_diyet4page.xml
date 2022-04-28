@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/agreen"
+    tools:context=".diyet4page">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="362dp"
+        android:layout_height="705dp"
+        android:text="@string/sabah_beyaz_peynir_domates_salatal_k_1_dilim_kepek_ekmek_1_fincan_ekersiz_ay_n_n_n_ara_n_1_adet_taze_meyve_n_n_n_le_1_kase_orba_1_dilim_kepek_ekmek_1_kase_salata_n_n_n_ara_n_1_avu_f_nd_k_n_n_n_ak_am_1_kase_zeytinya_l_sebze_yeme_i_1_kase_salata_1_kase_cac_k_n_n_n_ara_n_1_adet_elma"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

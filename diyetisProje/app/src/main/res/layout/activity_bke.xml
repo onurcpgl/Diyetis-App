@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/agreen"
+    tools:context=".BKE">
+
+    <EditText
+        android:id="@+id/editTextBoy"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="21dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/boyunuz"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextKilo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/v_cut_kitle_ndeksi_hesaplama"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/editTextBoy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextKilo"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="35dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/kilonuz"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/hesapla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBoy" />
+
+    <Button
+        android:id="@+id/hesapla"
+        android:layout_width="146dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="34dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/hesapla"
+        android:textColor="#FAFAFA"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSonuc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKilo"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textViewSonuc"
+        android:layout_width="310dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="225dp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hesapla" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
