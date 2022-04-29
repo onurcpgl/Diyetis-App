@@ -83,7 +83,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBMy7hzVQFjUYwuAJhzLAjBiDQjWpHBD70" />
+            android:value="" />
 
         <activity
             android:name=".diy1_map"
